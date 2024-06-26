@@ -1,0 +1,21 @@
+# Ignore Terraform lock files
+*.lock.hcl
+
+# Ignore all log files
+*.log
+
+# Ignore Terraform plan output files
+*.tfstate
+*.tfstate.*
+terraform.tfstate.d/
+crash.log
+
+# Ignore executable binaries
+*.exe
+*.dll
+
+# Ignore directory Terraform modules get downloaded into
+.terraform/
+
+# Ignore specific files
+LICENSE.txt
