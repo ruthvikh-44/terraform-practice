@@ -19,3 +19,6 @@ crash.log
 
 # Ignore specific files
 LICENSE.txt
+
+# Ignore Terraform variable definitions
+terraform.tfvars
